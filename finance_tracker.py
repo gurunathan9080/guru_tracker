@@ -333,7 +333,7 @@ def future_insights():
     st.caption("Your AI-powered financial companion for life, work, and beyond.")
 # ---------- Chatbot Section ----------
 def finance_chatbot_section():
-    st.header("🤖 guru assistant")
+    st.header("🤖 NALINI ASSISTANT")
     model = genai.GenerativeModel("gemini-2.5-flash")
 
     if "gemini_chat" not in st.session_state:
